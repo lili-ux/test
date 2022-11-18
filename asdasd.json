@@ -1,0 +1,75 @@
+
+IS_TEST_ENV=false
+APP_ID=61b8492xxxf0xxx0c9ab8890
+APP_KEY=0445440139b74ecxxx7a7712456176
+VOLC_AK=AKLTZjg3MzQ4OGxxxMzFjNxxxYzg0NGNxxxTNhNDxxxDNKN21
+VOLC_SK=TjJRMU5UxxxtZVFxxx0dVek5HUXpxxxmd5T0RxxxbE16aGtPREUzWxxxbU5Uaw==
+FEED_SHARE_CONTENT_PARTNER=vertc_demxxefault_coontent
+
+FEED_SHARE_CONTENT_CATEGORY=vertc_demo_defxxxlt_conttent_feed_1_8
+ACCOUNT_ID=210xx68960
+VOD_SPACE=rtc_xxest
+require github.com/volcengine/volcxxngine-go-sdk v1.0.38
+   "prepare_command": "", 
+    "default_subspecs": [
+        "Core", 
+        "OneKit"
+    ], 
+    "description": "framework_description", 
+    "license": {
+        "text": "Bytedance copyright", 
+        "type": "Copyright"
+    }, 
+    "platforms": {
+        "ios": "9.0"
+    }, 
+    "preserve_paths": [
+        "**/*.bwp"
+    ], 
+    "ios": {
+        "frameworks": [
+            "UIKit", 
+            "Foundation", 
+            "JavaScriptCore"
+        ]
+    }, 
+    "summary": "framework_summary", 
+    "source": {
+        "http": "https://sf3-ttcdn-tos.pstatp.com/obj/volcengine/BDHotfix/1.0.1/BDHotfix.framework.tar.xz"
+    }, 
+    "version": "1.0.1", 
+    "authors": {
+        "\u6731\u5143\u6e05": "zhuyuanqing@bytedance.com"
+    }, 
+    "static_framework": true, 
+    "homepage": "https://github.com/volcengine/volcengine-specs", 
+    "repoId": "20311", 
+    "subspecs": [
+        {
+            "public_header_files": [
+                "BDHotfix/Classes/Core/*.h", 
+                "BDHotfix/Classes/Core/Model/*.h"
+            ], 
+            "name": "Core", 
+            "preserve_paths": [
+                "**/*.bwp"
+            ], 
+            "ios": {
+                "vendored_libraries": "ios-arch-iphone/*_Core_*awesome_*.a"
+            }, 
+            "dependencies": {
+                "SSZipArchive": [], 
+                "OneKit/MARS/Auth": []
+            }, 
+            "source_files": "BDHotfix/Classes/Core/**/*.{h,m,c}"
+        }, 
+        {
+            "public_header_files": "BDHotfix/Classes/OneKit/Tasks/*.h", 
+            "name": "OneKit", 
+            "preserve_paths": [
+                "**/*.bwp"
+            ], 
+            "ios": {
+                "vendored_libraries": "ios-arch-iphone/*_OneKit_*awesome_*.a"
+            }, 
+            "dependencies": {
