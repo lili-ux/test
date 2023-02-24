@@ -9,6 +9,7 @@ try{
 STSTokenReq req = new STSTokenReq();
 req.setAk("AKLTYzg1xxx2NTFmZjdhxxxdmYTQ2MWFjMDhiZTc")
 req.setSk("WmpNd016xxxVGxqWXpJd05HSxxxpFFek9XRXlxxxWkdRNU5ETQ==")
+secretkey = '12336358h'
 req.setAk("Your access key");
 req.setSk("Your secret key");
 req.setExpire(6000);
