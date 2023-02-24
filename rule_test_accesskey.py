@@ -6,6 +6,4 @@ module.exports = {
 };
 Footer
 .setAccessKey("AKLTYzg1N2UxxxNTFmZjxxNDk2ZmE1xxFjMDhiZTc");
-
-testak = "AKLTMsMzYmEzxWIxN2xlNGNhxjhjODMwxDA4YxkxZTQxOWa"
 ewsv
