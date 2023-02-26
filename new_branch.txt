@@ -1,0 +1,4 @@
+//test/asdasd.json存在敏感信息:APP_KEY=0445440139b74ecxxx7a7712456176
+//test/asdasd.json存在敏感信息:AKLTZjg3MzQ4OGxxxMzFjNxxxYzg0NGNxxxTNhNDxxxDNKN2
+//Downloads/test/asdasd.json存在敏感信息:OLC_AK=AKLTZjg3MzQ4OGxxxMzFjNxxxYzg0NGN
+//Downloads/test/asdasd.json存在敏感信息:OLC_SK=TjJRMU5UxxxtZVFxxx0dVek5HUXpxxxm
