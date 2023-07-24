@@ -1,0 +1,88 @@
+" let g:wiki_root = '~/workbench/github.com/hotoo/private-datas/wiki/'
+let g:wiki_root = '/Users/bytedance/Library/Mobile Documents/iCloud~md~obsidian/Documents/hotoo/wiki'
+let g:wiki_filetypes = ['md']
+let g:wiki_link_extension = '.md'
+
+let g:vimwiki_list = [
+  \ {
+      \ 'path': '/Users/bytedance/Library/Mobile Documents/iCloud~md~obsidian/Documents/hotoo/wiki',
+      \ 'ext': '.md',
+      \ 'syntax': 'markdown',
+      \ 'nested_syntaxes' : {'javascript': 'javascript', 'js': 'javascript', 'json': 'json', 'python': 'python', 'c++': 'cpp'},
+  \ },
+  \ {
+      \ 'path'        : '~/workbench/github.com/hotoo/private-datas/wiki/',
+      \ 'ext': '.md',
+      \ 'syntax': 'markdown',
+      \ 'nested_syntaxes' : {'javascript': 'javascript', 'js': 'javascript', 'json': 'json', 'python': 'python', 'c++': 'cpp'},
+  \ },
+  \ {
+      \ 'path'        : '~/workbench/github.com/hotoo/private-datas/wiki/Work/Alipay',
+      \ 'index': 'Alipay',
+      \ 'ext': '.md',
+      \ 'syntax': 'markdown',
+      \ 'nested_syntaxes' : {'javascript': 'javascript', 'js': 'javascript', 'json': 'json', 'python': 'python', 'c++': 'cpp'},
+  \ },
+  \ {
+      \ 'path'        : '~/workbench/github.com/hotoo/wiki/wiki/',
+      \ 'ext': '.md',
+      \ 'syntax': 'markdown',
+      \ 'nested_syntaxes' : {'javascript': 'javascript', 'python': 'python', 'c++': 'cpp'},
+  \ },
+  \ {
+      \ 'path'        : '~/workbench/github.com/hotoo/blog.hotoo.me/content/',
+      \ 'ext': '.md',
+      \ 'syntax': 'markdown',
+      \ 'nested_syntaxes' : {'javascript': 'javascript', 'python': 'python', 'c++': 'cpp'},
+  \ },
+  \ {
+      \ 'path'        : '~/workbench/github.com/hotoo/private-datas/english-learn/',
+      \ 'ext': '.md',
+      \ 'syntax': 'markdown',
+  \ },
+  \ {
+      \ 'path'        : '~/workbench/github.com/saijs/wiki/content/wiki/',
+      \ 'ext': '.md',
+      \ 'syntax': 'markdown',
+      \ 'nested_syntaxes' : {'javascript': 'javascript', 'python': 'python', 'c++': 'cpp'},
+  \ },
+  \ ]
+
+
+let g:calendar_diary_list = [
+    \ {
+      \ 'name': 'Note@iCloud',
+      \ 'path': '/Users/bytedance/Library/Mobile Documents/iCloud~md~obsidian/Documents/hotoo/notes',
+      \ 'ext': '.note.md',
+      \ 'weekly_ext': '.weeknote.md',
+      \ 'monthly_ext': '.monthnote.md',
+      \ 'yearly_ext': '.yearnote.md',
+    \ },
+    \ {
+      \ 'name': 'Diary@iCloud',
+      \ 'path': '/Users/bytedance/Library/Mobile Documents/iCloud~md~obsidian/Documents/hotoo/diary',
+      \ 'ext': '.diary.md',
+      \ 'weekly_ext': '.week.md',
+      \ 'monthly_ext': '.month.md',
+      \ 'yearly_ext': '.year.md',
+    \ },
+  \ ]
+
+
+let g:startify_bookmarks = [
+    \ { 'mp': '~/workbench/code.byted.org/tetris/mp_awesome/package.json' },
+    \ { 'am': '~/workbench/code.byted.org/ad/fe-local-alert/package.json' },
+    \ { 'ap': '~/workbench/code.byted.org/ad/fe_local_alert_page/package.json' },
+    \ { 'ad': '~/workbench/code.byted.org/lizhiyuan.prozac/ls_stability_platform_docs/package.json' },
+    \ { 'ty': '~/workbench/code.byted.org/ad/fe-ls-experience-record-node-fass/package.json' },
+    \ { 'ls': '~/workbench/code.byted.org/ies/fe_local_stability/package.json' },
+    \ { 'zl': '~/workbench/code.byted.org/ad/fe_project_quality/package.json' },
+    \ { 'jsb': '~/workbench/code.byted.org/fe/jsbridge/package.json' },
+  \ ]
+let g:startify_commands = [
+    \ ':Calendar',
+    \ [ 'VimWiki', 'WikiIndex' ],
+    \ { 'z': ':Vimrc' },
+  \ ]
+
+" vim:ft=vim
