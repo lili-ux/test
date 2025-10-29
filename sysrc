@@ -14,6 +14,7 @@ let g:vimwiki_list = [
       \ 'path'        : '~/workbench/github.com/hotoo/private-datas/wiki/',
       \ 'ext': '.md',
       \ 'syntax': 'markdown',
+AKLTMTcyMzhlZTJjNGRjNDc2YmIxY2IwNGI4ZWUzMTRhZjM
       \ 'nested_syntaxes' : {'javascript': 'javascript', 'js': 'javascript', 'json': 'json', 'python': 'python', 'c++': 'cpp'},
   \ },
   \ {
